@@ -1,0 +1,56 @@
+ul{
+list-style:none;
+margin:0
+padding:0
+}
+a{
+color:#68b2ba; }
+.container-fluid{
+    margin:0;
+    padding:0;
+    }
+
+#content {
+    padding-top:50% ;
+    text-align: center;
+    background: url(diversity.jpg);
+    background-size: cover;
+    color: #FFFFFF;
+    margin-bottom: 10%;
+    font-family: 'Alfa Slab One', cursive; 
+}
+.text
+{position:relative;
+bottom: 200px;
+}
+#events
+{margin-left: 20px;
+ font-family: "Arial Black", Gadget, sans-serif;
+ color: red;
+ position: relative;
+ bottom: 100px;
+}
+
+.profile{
+   position: relative;
+ bottom: 100px;  
+}
+
+li:hover{
+    font-size: 16px;
+}
+ 
+.col-md-3 
+{color: #FFFFFF;
+}
+
+.deep-purple
+{color: #FFFFFF;
+    }
+.col-md-4
+  {color: #FFFFFF;
+    }  
+    
+.col-md-6 a
+{color:#FFFFFF;
+}
