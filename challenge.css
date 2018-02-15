@@ -1,14 +1,3 @@
-ul{
-list-style:none;
-margin:0
-padding:0
-}
-a{
-color:#68b2ba; }
-.container-fluid{
-    margin:0;
-    padding:0;
-    }
 
 #content {
     padding-top:50% ;
@@ -31,6 +20,25 @@ bottom: 200px;
  bottom: 100px;
 }
 
+#list
+{
+text-align:center;
+ 
+}
+#list p{
+    font-family: Arial;
+}
+.img
+{
+    vertical-align: center;
+}
+#cen-park{
+     
+    width: 50%;
+    height: 50%;
+}
+ 
+ 
 .profile{
    position: relative;
  bottom: 100px;  
