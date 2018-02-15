@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Event #1</title>
+    <link rel="stylesheet" type="text/css" href="challenge.css">
+    
+     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+     <script src="https://use.fontawesome.com/b3b151cf5f.js"></script>
+     <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"> </script>
+     <script src="http://www.datejs.com/build/date.js" type="text/javascript"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+     
+    </script> 
+     <style>
+     #map{
+        
+        height: 400px;
+        width: 40%;
+        margin: auto;
+        margin-bottom:10%;
+        }
+      </style>
+ 
+</head>
+<body>
+   <nav class="navbar navbar-default navbar-fixed-top" style="background-color: #e3f2fd;">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+  <a class="navbar-brand" href="#">Discover MIXs</a>
+   </div>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contactus.html">Contact</a></li>
+      </ul>
+      
+    
+  </div>
+  </div>
+</nav> 
+<div class="container-fluid">
+<div id="list">
+ <div class="row">
+  
+  
+   
+    <script type="text/javascript" src="event.js"></script>
+   
+   </div>
+  
+   </div>
+   <div id="map"></div>
+   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsdCin0LAIxjnLiWwBb9rwpwfd1QoAQKE&callback=initMap">
+</div>
+
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<footer class="page-footer center-on-small-only unique-color-dark pt-0">
+
+    <div style="background-color: #6351ce;">
+        <div class="container">
+            <!--Grid row-->
+            <div class="row py-4 d-flex align-items-center">
+
+
+                <!--Grid column-->
+                <div class="col-md-6 col-lg-7 text-center text-md-right">
+                <!--Grid column-->
+                <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                    <h6 class="mb-0 white-text">Get connected with us on Facebook! <a class="icons-sm fb-ic" a href="https://www.facebook.com/brigidmixs/"><i class="fa fa-facebook white-text mr-lg-4"> </i></a></h6>
+                </div>
+                 
+
+            </div>
+            <!--Grid row-->
+        </div>
+    </div>
+
+    <!--Footer Links-->
+    <div class="container-fluid">
+    <div style="background-color: #000040">
+    <div class="container mt-5 mb-4 text-center text-md-left">
+        <div class="row mt-3">
+
+            <!--First column-->
+            <div class="col-md-3 col-lg-4 col-xl-3 mb-r">
+                <h6 class="title font-bold"><strong>Discover MIXs</strong></h6>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p>We currently have branches in 10 different countries. Look for an event near you</p>
+            </div>
+            <!--/.First column-->
+
+            <!--Second column-->
+            
+            <!--/.Second column-->
+
+            <!--Third column-->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-r">
+                <h6 class="title font-bold"><strong>Links</strong></h6>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p><a href="#!">The Team</a></p>
+                <p><a href="#!">Our Philosophy</a></p>
+                <p><a href="#!">Upcoming Events</a></p>
+                <p><a href="#!">Help</a></p>
+            </div>
+            <!--/.Third column-->
+
+            <!--Fourth column-->
+            <div class="col-md-4 col-lg-3 col-xl-3">
+                <h6 class="title font-bold"><strong>Contact</strong></h6>
+                <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                <p><i class="fa fa-home mr-3"></i> Lisbon, Spain</p>
+                <p><i class="fa fa-envelope mr-3"></i> info@discovermixs.com</p>
+                <p><i class="fa fa-phone mr-3"></i> 1-800-555-1234</p>
+                
+            </div>
+            <!--/.Fourth column-->
+        </div>
+        </div>
+    </div>
+    <!--/.Footer Links-->
+
+    
+</footer>   
+</body>
+</html>
